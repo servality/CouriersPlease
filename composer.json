@@ -1,0 +1,19 @@
+{
+  "name": "servality/couriersplease",
+  "description": "Couriers Please API wrapper",
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "authors": [
+    {
+      "name": "Michael Newman",
+      "email": "micknewman16@gmail.com"
+    }
+  ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-0" : {
+      "CplDomestic" : "src/"
+    }
+  }
+}

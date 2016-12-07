@@ -60,7 +60,7 @@ class CplDomestic
      * @return mixed|\Psr\Http\Message\ResponseInterface
      */
 
-    private function sendRequest(string $method, string $uri, string $body = ''){
+    private function sendRequest($method, $uri, $body = ''){
 
         $host = 'api-test.couriersplease.com.au';
         $api_version = 'v1';
