@@ -1,7 +1,10 @@
 {
   "name": "servality/couriersplease",
   "description": "Couriers Please API wrapper",
+  "keywords": ["couriers", "api", "please"],
+  "license": "MIT",
   "require": {
+    "php" : ">=5.3.0",
     "guzzlehttp/guzzle": "^6.2"
   },
   "authors": [
